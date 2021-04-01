@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="82px" height="82px" viewBox="0 0 82 82" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>icono-servicio-proyecto</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Paginas" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Destacado/Empresa" transform="translate(-4192.000000, -905.000000)" fill="#000000" fill-rule="nonzero">
+            <g id="icono-servicio-proyecto" transform="translate(4192.000000, 905.000000)">
+                <path d="M41,0 C63.6436747,0 82,18.3563253 82,41 C82,63.6436747 63.6436747,82 41,82 C18.3563253,82 0,63.6436747 0,41 C0,18.3563253 18.3563253,0 41,0 Z M41,12 C24.9837423,12 12,24.9837423 12,41 C12,57.0162577 24.9837423,70 41,70 C57.0162577,70 70,57.0162577 70,41 C70,24.9837423 57.0162577,12 41,12 Z" id="Oval"></path>
+                <path d="M41,23 C50.9411255,23 59,31.0588745 59,41 C59,50.9411255 50.9411255,59 41,59 C31.0588745,59 23,50.9411255 23,41 C23,31.0588745 31.0588745,23 41,23 Z M41,35 C37.6862915,35 35,37.6862915 35,41 C35,44.3137085 37.6862915,47 41,47 C44.3137085,47 47,44.3137085 47,41 C47,37.6862915 44.3137085,35 41,35 Z" id="Oval-Copy-4" opacity="0.200000003"></path>
+            </g>
+        </g>
+    </g>
+</svg>
