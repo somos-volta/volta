@@ -1,0 +1,8 @@
+shop:
+  description:         "El primer tema de Bootic centrado en las tiendas que buscan más control sobre el diseño permitiendoles que puedan personalizarlo completamente con diferentes estilos, tamaños y colores."
+
+titles:
+  home:                "Portada"
+  products:            "Productos"
+  categories:          "Categorías"
+  filters:             "Filtros"

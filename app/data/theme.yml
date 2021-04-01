@@ -1,0 +1,5 @@
+navbar_show_logo:         false
+navbar_background:        "transparent"
+dropdown_width:           320px
+
+path_prefix:              ""

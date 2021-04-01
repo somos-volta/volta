@@ -1,0 +1,95 @@
+cta:
+  title:               "Contacto"
+  slug:                "contacto"
+  url:                 "/contacto"
+
+header:
+  -
+    title:               "Empresa"
+    slug:                "empresa"
+    url:                 "/empresa"
+  -
+    title:               "Trabajos"
+    slug:                "trabajos"
+    url:                 "/trabajos"
+  -
+    title:               "Únete"
+    slug:                "unete"
+    url:                 "/unete"
+
+development:
+  -
+    title:               "Styleguide"
+    slug:                "styleguide"
+    url:                 "/styleguide/"
+
+footer:
+  -
+    title:               "Información"
+    name:                "info"
+    links:
+      -
+        title:           "Contacto"
+        slug:            ""
+        url:             ""
+      -
+        title:           "Terminos y condiciones"
+        slug:            "terms"
+        url:             ""
+
+  -
+    title:               "Nuestros productos"
+    name:                "products"
+    links:
+      -
+        title:           "Accesorios"
+        slug:            ""
+        url:             ""
+      -
+        title:           "Bancos"
+        slug:            ""
+        url:             ""
+      -
+        title:           "Decoracion"
+        slug:            ""
+        url:             ""
+      -
+        title:           "Diseño moderno"
+        slug:            ""
+        url:             ""
+      -
+        title:           "Decoracion"
+        slug:            ""
+        url:             ""
+      -
+        title:           "Lamparas"
+        slug:            ""
+        url:             ""
+      -
+        title:           "Sillas"
+        slug:            ""
+        url:             ""
+      -
+        title:           "Sillas retro"
+        slug:            ""
+        url:             ""
+  -
+    title:               "Contactanos"
+    name:                "contact"
+    links:
+      -
+        title:           "+56 9 6577 1233"
+        slug:            ""
+        url:             ""
+      -
+        title:           "+56 9 6577 1233"
+        slug:            ""
+        url:             ""
+      -
+        title:           "VOLTA's Street #1234"
+        slug:            ""
+        url:             ""
+      -
+        title:           "Abierto de 10 a 18 hrs."
+        slug:            ""
+        url:             ""
