@@ -1,0 +1,24 @@
+{
+  "name": "frame",
+  "description": "Frame Framework",
+  "private": true,
+  "author": "Cristian Ferrari",
+  "version": "0.0.1",
+  "repository": "",
+  "scripts": {
+    "start": "set LOGGY_STACKS=true && brunch watch --server --port 3377",
+    "build": "brunch build --production --env production",
+    "clean": "rm -rf .tmp assets"
+  },
+  "dependencies": {
+    "jquery": "^3.6.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.0",
+    "brunch": "^2",
+    "clean-css-brunch": "^2",
+    "postcss-brunch": "^0.5",
+    "sass-brunch": "^2",
+    "uglify-js-brunch": "^2"
+  }
+}

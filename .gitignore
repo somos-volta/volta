@@ -1,0 +1,7 @@
+.tmp
+.bundle
+.cache
+.DS_Store
+.sass-cache
+node_modules/
+build/
