@@ -1,0 +1,71 @@
+<header id="navigation" class="navbar position-fixed ">
+  <div class="container stack align-items-center">
+
+    <a class="navbar-button navbar-icon menu-icon toggle-open-element visible-phone" href="#mobile-menu">
+      <%= partial  "icon/menu.svg" %>
+      <i class="icon-navicon" hidden>&nbsp;</i>
+    </a>
+
+    <a id="logo" class="navbar-brand" title="<%= data.text.titles.home %>" href="/">
+      <% if data.site.logo && data.theme.navbar_show_logo %>
+        <img src="<%= data.site.logo %>" alt="<%= data.site.name%>" />
+      <% else %>
+        <span><%= data.site.name %></span>
+      <% end %>
+    </a>
+
+    <div class="navbar-spacer"></div>
+
+    <ul id="main-menu" class="navbar-menu menu light-links">
+      <% data.menu.header.each do |item| %>
+        <% if item.url %>
+          <li class="menu-item menu-item-<%= item.slug %>">
+            <a class="menu-link" href="<%= item.url %>"><%= item.title %></a>
+          </li>
+        <% elsif item.links %>
+          <li class="menu-item menu-item-<%= item.slug %> dropdown">
+            <span class="menu-label" href="<%= item.url %>">
+              <%= item.title %><i class="icon-chevron-down"></i>
+            </span>
+            <ul class="menu dropdown-menu primary-links" style="--size: <%= data.theme.dropdown_width %>">
+              <% item.links.each do |item| %>
+                <% if item.url %>
+                  <li class="menu-item menu-item-<%= item.slug %>">
+                    <a class="menu-link" href="<%= item.url %>">
+                      <%= item.title %>
+                      <% if item.description %>
+                        <div class="type-caption text-secondary mt-1"><%= item.description %></div>
+                      <% end %>
+                    </a>
+                  </li>
+                <% end %>
+              <% end %>
+            </ul>
+          </li>
+        <% end %>
+      <% end %>
+    </ul>
+
+    <ul id="mobile-menu" class="navbar-menu menu hidden">
+      <% data.menu.header.each do |item| %>
+        <li class="menu-item menu-item-<%= item.slug %>">
+          <a class="menu-link" href="<%= item.url %>">
+            <%= item.title %>
+            <i class="icon-arrow-right right">&nbsp;</i>
+          </a>
+        </li>
+      <% end %>
+    </ul>
+
+    <% data.menu.cta do |cta| %>
+      <ul id="main-cta" class="navbar-menu menu">
+        <li class="menu-item menu-item-<%= cta.slug %>">
+          <a class="" href="<%= cta.url %>">
+            <%= cta.title %>
+          </a>
+        </li>
+      </ul>
+    <% end %>
+
+  </div>
+</header>

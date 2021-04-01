@@ -1,0 +1,57 @@
+<footer id="footer">
+  <div class="container">
+    <div class="columns align-items-start space-between">
+
+      <div class="column footer-info">
+        <h3><%= data.site.name %> </h3>
+        <p><%= data.site.description %> </p>
+        <ul class="menu menu-development">
+          <% if :development? %>
+            <% data.menu.development.each do |item| %>
+              <li class="menu-item menu-item-<%= item.slug %>">
+                <a class="menu-link" href="<%= item.url %>"><%= item.title %></a>
+              </li>
+            <% end %>
+          <% end %>
+        </ul>
+      </div>
+
+      <% data.menu.footer.each do |menu| %>
+        <div class="column footer-menu">
+          <h3><%= menu.title %> </h3>
+          <ul class="menu menu-<%= menu.name %>">
+            <% menu.links.each do |link| %>
+              <li class="menu-item menu-item-<%= link.slug %>">
+                <a class="menu-link" href="<%= link.url %>"><%= link.title %></a>
+              </li>
+            <% end %>
+          </ul>
+        </div>
+      <% end %>
+
+    </div><!-- /grid -->
+  </div><!-- /container -->
+
+  <div class="container">
+    <hr/>
+    <div class="stack align-items-start space-between">
+      <p>Todos los derechos reservados.<p/>
+
+
+      <div class="social-icons hidden">
+        <a target="_blank" href="http://facebook.com/{{ footer.facebook_page }}" class="facebook"><i class="icon-social-facebook"></i></a>
+
+        <a target="_blank" href="http://twitter.com/{{ footer.twitter_user }}" class="twitter"><i class="icon-social-twitter"></i></a>
+
+        <a target="_blank" href="http://youtube.com/user/{{ footer.youtube_user }}" class="youtube"><i class="icon-social-youtube"></i></a>
+
+        <a target="_blank" href="http://instagram.com/{{ footer.instagram_account }}" class="instagram"><i class="icon-social-instagram"></i></a>
+
+        <a target="_blank" href="http://web.whatsapp.com/{{ footer.whatsapp_number }}" class="whatsapp"><i class="icon-social-whatsapp"></i></a>
+      </div>
+
+      <a target="_blank" href="https://www.somosvolta.co">VOLTA</a>
+
+    </div>
+  </div>
+</footer>
