@@ -21,8 +21,8 @@ activate :external_pipeline,
          latency: 1
 
 # Partials
-files.watch :source, path: "/Users/cristian/Development/volta/studio/library"
-files.watch :source, path: "/Users/cristian/Development/volta/studio/library/partials"
+files.watch :source, path: "/Users/cristian/Development/studio/library"
+files.watch :source, path: "/Users/cristian/Development/studio/library/partials"
 
 # Helpers
 # Methods defined in the helpers block are available in templates
