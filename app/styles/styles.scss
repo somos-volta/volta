@@ -1,16 +1,16 @@
 @charset "utf-8";
 
-$include-reset:        true;
-$include-scaffold:     true;
-$include-layout:       true;
-$include-content:      true;
-$include-classes:      true;
-$include-utilities:    true;
-$include-components:   true;
-$include-breakepoints: true;
-$include-interactions: true;
+$include-reset:         true;
+$include-scaffold:      true;
+$include-layout:        true;
+$include-content:       true;
+$include-classes:       true;
+$include-utilities:     true;
+$include-components:    true;
+$include-breakepoints:  true;
+$include-interactions:  true;
 
-$include-icomoon:      true;
+$include-feather-icons: true;
 
 @import "config";
 @import "frame";

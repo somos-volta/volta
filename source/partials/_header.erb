@@ -1,9 +1,9 @@
 <header id="navigation" class="navbar position-fixed ">
   <div class="container stack align-items-center">
 
-    <a class="navbar-button navbar-icon menu-icon toggle-open-element visible-phone" href="#mobile-menu">
+    <a class="navbar-button navbar-icon menu-icon js-toggle-open-element visible-phone" href="#mobile-menu">
       <%= partial  "icon/menu.svg" %>
-      <i class="icon-navicon" hidden>&nbsp;</i>
+      <i class="icon-navicon" hidden></i>
     </a>
 
     <a id="logo" class="navbar-brand" title="<%= data.text.titles.home %>" href="/">
@@ -51,7 +51,7 @@
         <li class="menu-item menu-item-<%= item.slug %>">
           <a class="menu-link" href="<%= item.url %>">
             <%= item.title %>
-            <i class="icon-arrow-right right">&nbsp;</i>
+            <i class="icon-arrow-right right"></i>
           </a>
         </li>
       <% end %>
